@@ -51,7 +51,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## Acknowledgments
 Special thanks to the React and Flask communities for providing resources and libraries that made this chatbot possible. Additionally, OpenAI's ChatGPT 3.5 model enhances the chatbot's capabilities to provide valuable advice to parents.
-
----
-
-Customize this README to match your specific project and requirements, and consider providing more detailed instructions on the types of exercises and advice that the chatbot can offer to parents.
