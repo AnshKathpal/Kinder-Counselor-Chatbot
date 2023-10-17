@@ -46,6 +46,7 @@ export const Chatbot = () => {
       bg="#FFF3DA"
     >
       <Text  fontSize={"40px"} fontFamily = "'Paytone One', sans-serif">Kinder Counselor</Text>
+      <Text  fontSize={"25px"} fontFamily = "'Paytone One', sans-serif">Your Path to Raising Well-Mannered Kids.</Text>
 
       <Flex
         // border="1px solid red"

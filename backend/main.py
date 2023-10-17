@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request, jsonify
 import openai
-from flask_cors import CORS 
+from flask_cors import CORS
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -15,7 +15,7 @@ CORS(app)
 def chat():
     try:
         user_message = request.json['message']
-        
+
         messages = [
             {
                 "role": "system",
@@ -26,7 +26,7 @@ def chat():
                 "content": user_message
             }
         ]
-        
+
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=messages,
@@ -36,12 +36,13 @@ def chat():
             frequency_penalty=2,
             presence_penalty=1.5
         )
-        
+
         model_reply = response['choices'][0]['message']['content']
         return jsonify({"message": model_reply})
-    
+
     except Exception as e:
         return jsonify({"error": str(e)})
+
 
 if __name__ == '__main__':
     app.run(debug=True)
