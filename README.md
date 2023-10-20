@@ -20,6 +20,15 @@ Kinder Counselor is an innovative chatbot application designed to assist parents
 ### Integration
 - **OpenAI ChatGPT 3.5**: The chatbot integrates the ChatGPT model to facilitate chat conversations and provide valuable advice and exercises.
 
+
+<img width="1680" alt="Screenshot 2023-10-21 at 3 14 15 AM" src="https://github.com/AnshKathpal/Kinder-Counselor-Chatbot/assets/115460552/0748a310-f973-493e-abff-2c1bee446b8c">
+
+<img width="1680" alt="Screenshot 2023-10-21 at 3 13 06 AM" src="https://github.com/AnshKathpal/Kinder-Counselor-Chatbot/assets/115460552/ebea3f0d-31aa-4926-9694-073fcb77eb1f">
+
+<img width="1680" alt="Screenshot 2023-10-21 at 3 12 58 AM" src="https://github.com/AnshKathpal/Kinder-Counselor-Chatbot/assets/115460552/ece351bc-0b5f-44b3-b366-a30e5cbea81d">
+
+<img width="1680" alt="Screenshot 2023-10-21 at 3 13 51 AM" src="https://github.com/AnshKathpal/Kinder-Counselor-Chatbot/assets/115460552/b666bb67-190e-4af3-a971-cd328be01ed8">
+
 ## Installation and Setup
 1. Clone the repository from GitHub.
 
